@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Clean background color transition */
+body {
+  background: #0b0b0b;
+  transition: background-color 0.12s ease-out;
+}
+
+.readouts {
+  display: flex;
+  gap: 16px;
+  font-size: 14px
+}
+
+/* Make the page color cover full viewport via body background set by JS */
+
+/* tiny about link */
+#aboutTiny {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 14px;
+  backdrop-filter: blur(4px);
+}
